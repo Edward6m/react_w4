@@ -8,10 +8,8 @@ const BASE_URL = import.meta.env.VITE_BASE_URL;
 function LoginPage({ setIsAuth }) {
 
     const [account, setAccount] = useState({
-        // username: "example@test.com",
-        // password: "example"
-        username: "dndnomrt@gmail.com",
-        password: "alpha612"
+        username: "example@test.com",
+        password: "example"
     });
 
     const handleLogin = (e) => {
